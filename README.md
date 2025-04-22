@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Hamro Text Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Hamro Text Editor** is a lightweight and user-friendly text editing application designed for simplicity and productivity. Whether you're writing code, jotting down notes, or drafting documents, Hamro Text Editor provides an intuitive interface with essential features to meet your needs.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Clean User Interface**: Simple and distraction-free design.
+- **Rich Text Editing**: Support for UPPERCASE, lowercase, clear, copy and more.
+- **Text Counting**: Built-in support for text counting.
+- **Dark & Light Themes**: Choose your preferred theme for comfort.
+- **Time-To-Read**: Automatically predicts time to read the text.
+- **Cross-Platform**: Compatible with Windows, macOS, android, and Linux.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+This app is powered by modern web development technologies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **1. React**
 
-### `npm run build`
+- A robust JavaScript library used for building dynamic and interactive user interfaces.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **2. Router**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Simplifies state management, ensuring the application’s data flow remains organized and predictable.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **3. Styled-Components**
 
-### `npm run eject`
+- CSS-in-JS library for styling components, enabling clean, scoped, and reusable styling.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **4. React-Bootstrap**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Provides pre-built responsive and customizable UI components, enhancing the app’s appearance and usability.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Steps to follow
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Youbraj/hamro-text-editor.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Navigate to the Project Directory:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    cd hamro-text-editor
 
-### Code Splitting
+3. **Install Dependencies:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+    npm install
 
-### Analyzing the Bundle Size
+4. **Start the Development Server:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+    npm start
 
-### Making a Progressive Web App
+5. **Access the App:** Open your web browser and go to http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+Contributions are highly appreciated! If you encounter any bugs or have ideas for enhancements, feel free to:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Open an issue
 
-### Deployment
+- Submit a pull request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Your feedback and contributions will help make this app even better!
